@@ -1,0 +1,51 @@
+<?php
+/**
+ * Copyright 2011 Citizen Media Pvt. Ltd.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may
+ * not use this file except in compliance with the License. You may obtain
+ * a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ */
+class Instapress_Core_Feed
+{
+
+	public function __construct()
+	{
+		require_once(LIB_PATH. 'Instapress/Core/Feedburner/Feedburner.php');
+	}
+
+	public function feedData($uri,$startDate,$endDate)
+	{
+		$fb =& new feedburner($uri);
+		$date_str = date('Y-m-d',strtotime($startDate)).','.date('Y-m-d',strtotime($endDate));
+	  
+		$info = $fb->getFeedData(array('dates'=>$date_str));
+
+		if($fb->isError())
+		{
+			echo $fb->getErrorMsg();
+		}
+		else
+		{
+			$entries = $info['entries'];
+			if (count($entries) > 0)
+			{
+				$op = array();
+				foreach($entries as $entry)
+				{
+					$op[] = $entry;
+				}
+			}
+		}
+		return $op;
+	}
+}
+?>

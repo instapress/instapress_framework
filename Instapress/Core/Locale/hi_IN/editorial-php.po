@@ -1,0 +1,279 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-01 10:42+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: sandeep <sandeep@instablogs.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_dossier_template_assignment.php:173
+msgid "Edit"
+msgstr "संपादित करें"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_assignment.php:199
+msgid "Add assignment"
+msgstr "कार्यभार ज़ोड़ें"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_assignment.php:202
+msgid "Assignment Name"
+msgstr "कार्यभार का नाम"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_dossier_template_assignment.php:192
+msgid "Assignment Comment:"
+msgstr "कार्यभार टिप्पणी : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk.php:109
+msgid "Desk Name:"
+msgstr "लेखन-आधार का नाम : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_assignment.php:224
+msgid "Select Desk Name"
+msgstr "लेखन-आधार का नाम चुनें"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_dossier_template_assignment.php:229
+msgid "Add Assignment"
+msgstr "कार्यभार ज़ोड़ें"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_assignment.php:254
+msgid "Invalid Entries! Please consult Admin."
+msgstr "अमान्य प्रविष्टियां! कृपया व्यवस्थापक से सलाह लें."
+
+msgid "You are not Authorised to access this page! Please consult Admin."
+msgstr "आप इस पृष्ठ के उपयोग के लिए अधिकृत  नहीं हैं. कृपया व्यवस्थापक से सलाह ले"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk.php:33
+msgid "Desk was created successfuly."
+msgstr "लेखन-आधार सफलतापूर्वक बना दिया गया"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk.php:47
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk.php:72
+msgid "Add Desk"
+msgstr "लेखन-आधार ज़ोड़ें"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk.php:76
+msgid "DESK"
+msgstr "लेखन-आधार "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk.php:95
+msgid "Essential Information"
+msgstr "आवश्यक जानकारी"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk.php:97
+msgid "Desk Type:"
+msgstr "लेखन-आधार प्रकार : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk.php:99
+msgid "Edit Desk"
+msgstr "लेखन-आधार संपादित करें"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk.php:100
+msgid "Copy Desk"
+msgstr "लेखन-आधार की प्रति बनाएं  "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk.php:101
+msgid "Legal Desk"
+msgstr "वैध लेखन-आधार"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk.php:102
+msgid "Publish Desk"
+msgstr "लेखन-आधार प्रकाशित करें"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk.php:103
+msgid "Multimedia Desk"
+msgstr "मल्टीमीडिया लेखन-आधार"
+
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk.php:115
+msgid "Description:"
+msgstr "विवरण : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk.php:123
+msgid "Permission"
+msgstr "अनुमति"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk.php:125
+msgid "Read:"
+msgstr "पढ़ना : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk.php:128
+msgid "Write:"
+msgstr "लिखना : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk.php:131
+msgid "Create:"
+msgstr "बनाना : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk.php:134
+msgid "Publish:"
+msgstr "प्रकाशित करना : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk_user.php:17
+msgid "User to the desk added successfully."
+msgstr "उपभोक्ता लेखन-आधार से सफलतापूर्वक जोड़ दिया."
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk_user.php:21
+msgid "Error occured while submitting form! Please try later."
+msgstr "फार्म जमा करते समय त्रुटि हो गई! कृपया बाद में कोशिश करें."
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk_user.php:55
+msgid "Desk was not found in the database!"
+msgstr "लेखन-आधार आंकड़ा कोष में नहीं पाया गया!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk_user.php:63
+msgid "Instapress"
+msgstr "इन्स्ताप्रेस"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk_user.php:63
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk_user.php:90
+msgid "Add Desk User"
+msgstr "लेखन-आधार उपभोक्ता ज़ोड़ें"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk_user.php:63
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk_user.php:90
+msgid "Add Desk Users"
+msgstr "लेखन-आधार उपभोक्ता ज़ोड़ें"
+
+msgid "SEARCH"
+msgstr "खोजें"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk_user.php:113
+msgid "Desk Information"
+msgstr "लेखन-आधार जानकारी"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk_user.php:115
+msgid "Desk Name"
+msgstr "लेखन-आधार का नाम"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk_user.php:122
+msgid "Desk Type"
+msgstr "लेखन-आधार प्रकार"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk_user.php:127
+msgid "Description"
+msgstr "विवरण"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk_user.php:135
+msgid "Back to Inbox"
+msgstr "इनबॉक्स पर वापस"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk_user.php:136
+msgid "Save Search"
+msgstr "खोज संचित करें"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk_user.php:139
+msgid "Desk"
+msgstr "लेखन-आधार"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk_user.php:152
+msgid "User Name"
+msgstr "उपभोक्ता का नाम"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk_user.php:156
+msgid "Select"
+msgstr "चयन करें"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk_user.php:156
+msgid "All"
+msgstr "सभी"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk_user.php:156
+msgid "Invert Selection"
+msgstr "चयन पलटें"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk_user.php:185
+msgid "Delete"
+msgstr "मिटाएं"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk_user.php:209
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk_user.php:211
+msgid "Select Users"
+msgstr "उपभोक्ता का चयन करें"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk_user.php:232
+msgid "Cancel"
+msgstr "रद्द करें"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_desk_user.php:233
+msgid "Save"
+msgstr "संचित करें"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_assignment.php:81
+msgid "Assignment Added successfully."
+msgstr "कार्यभार सफलतापूर्वक जोड़ा गया."
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_assignment.php:90
+msgid "Please Assign Assignment Name!"
+msgstr "कृपया कार्यभार का नाम निर्धारित करें."
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_assignment.php:96
+msgid "Invalid Newsroom! Please Consult Admin"
+msgstr "अमान्य समाचार कक्ष! कृपया व्यवस्थापक से सलाह लें."
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_assignment.php:108
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_assignment.php:134
+msgid "Create Dossier"
+msgstr "फ़ाइल बनाएँ"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_assignment.php:108
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_assignment.php:134
+msgid "Add Assignments"
+msgstr "कार्यभार ज़ोड़ें"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_assignment.php:160
+msgid "Assigned to"
+msgstr "सौंपा गया"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_assignment.php:160
+msgid "Assignments"
+msgstr "कार्यभार"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_assignment.php:209
+msgid "Assignment Comment"
+msgstr "कार्यभार टिप्पणी"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/admin_php/ipeditorial/add_assignment.php:260
+#, fuzzy
+
+msgid "Newsroom :"
+msgstr "समाचार कक्ष  : "
+
+msgid "createdUserId should be a natural number!"
+msgstr "निर्मित उपयोगकर्ता आईडी एक प्राकृतिक नंबर होना  चाहिए !"
+
+msgid "clientId should be a natural number!"
+msgstr "ग्राहक आईडी एक प्राकृतिक नंबर होना  चाहिए"
+
+msgid "Checked entry/entries has been deleted"
+msgstr "जाँच प्रविष्टि / प्रविष्टियाँ हटा दी गयी  है"
+
+msgid "newsroom name is a required parameter and cannot be blank!"
+msgstr "समाचार कक्ष नाम एक आवश्यक मापदण्ड है और खाली नहीं कर सकते"
+
+msgid "This newsroom name already exists"
+msgstr "समाचार कक्ष नाम पैहले से मौज़ुद है"
+
+msgid "newsroomId should be a natural number!"
+msgstr "समाचार कक्ष आईडी एक प्राकृतिक नंबर होना  चाहिए ! "
+
+msgid "This record can't deleted because entry exist in Dossier."
+msgstr "यह  दस्तावेज नष्ट नहीं किया जा सकता क्युंकी लेख फाइल में मौज़ुद है "
+
+msgid "This record can't deleted because entry exist in Newsroom Desk."
+msgstr "यह  दस्तावेज नष्ट नहीं किया जा सकता क्युंकी लेख समाचार कक्ष लेखन-आधार में मौज़ुद है"
+
+msgid "This record can't deleted because entry exist in Newsroom Publication."
+msgstr "यह  दस्तावेज नष्ट नहीं किया जा सकता क्युंकी लेख समाचार कक्ष प्रकाशन में मौज़ुद है"
+
+msgid "Currently there is no data available."
+msgstr "वर्तमान में कोई आँकड़े उपलब्ध नहीं है"

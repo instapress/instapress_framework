@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-01 13:04+0530\n"
+"PO-Revision-Date: 2010-02-01 14:19+0530\n"
+"Last-Translator: sandeep  <sandeep@instablogs.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Welcome to Instapress"
+msgstr "Instapress में आपका स्वागत है"
+
+msgid "Login Details"
+msgstr "प्रवेशक का विवरण"
+
+msgid "Password :"
+msgstr "पासवर्ड :"
+
+msgid "Remember my Account Information"
+msgstr "मेरी खाता जानकारी याद रखें"
+
+msgid "Instapress"
+msgstr "Instapress"
+
+msgid "Login"
+msgstr "लॉग इन"
+
+msgid "Forgot Password?"
+msgstr "पासवर्ड भूल गए?"
+
+msgid "Username or Email :"
+msgstr "उपयोगकर्ता का नाम या ईमेल :"
+
+msgid "Forgot Password"
+msgstr "पासवर्ड भूल गए"
+
+msgid "Enter your account details and login email or username below. We will send you an email with a link to reset your password."
+msgstr "आपके खाते के विवरण और प्रवेश ईमेल या उपयोगकर्ता का नाम नीचे दर्ज करें. हम आपको पासवर्ड रीसेट करने के लिए एक लिंक के साथ ईमेल भेज देंगे."
+
+msgid "Return to Login Page"
+msgstr "लॉगइन पेज पर वापस जाएँ"
+
+msgid "Submit"
+msgstr "प्रेषित करें"
+
+msgid "To sign up for Instapress, choose your organization's primary domain and submit basic details."
+msgstr "Instapress में साइन अप के लिए, अपने संगठन की प्राथमिक डोमेन चुनें और बुनियादी जानकारी प्रेषित करें."
+
+msgid "Create Asset - Image"
+msgstr "संपत्ति बनाएँ - छवि"
+
+msgid "Main Window"
+msgstr "मुख्य विंडो"
+
+msgid "Create Image"
+msgstr "छवि बनाएँ"
+
+msgid "You can upload image by providing the information in the form below."
+msgstr "आप नीचे के रूप में जानकारी उपलब्ध कराने के द्वारा छवि अपलोड कर सकते हैं."
+
+msgid "Create :"
+msgstr "बनाएँ:"
+
+msgid "Upload Image From :"
+msgstr "अपलोड करने से चित्र:"

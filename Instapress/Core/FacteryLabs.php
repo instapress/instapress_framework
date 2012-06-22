@@ -1,0 +1,79 @@
+<?php
+
+class Instapress_Core_Facterylabs{
+		private $_twitterfact = 'twitterfact.facterylabs.com';
+		private $_factfinder = 'factfinder.facterylabs.com/find.json';
+		private $_searchterm = '';
+		public function __construct(){
+		}
+		
+		public function getQueryUrl( $searchterm= null ){
+			 $this->_searchterm = $searchterm !== null ? $searchterm : $this->_searchterm ;
+			 if( $this->_searchterm === null ){
+			 	throw new Exception('Please enter the string to search!');
+			 }
+			 $query0 = str_replace( " ", "+", $searchterm );
+			 $queryUrl = "http://".$this->_twitterfact."/search?q=".$query0."+filter:links";
+			 return $this->getCurlData( $this->getTwitterUrls( $queryUrl ) );
+		
+		}
+		
+		public function getTwitterUrls( $queryUrl ){
+			$metapostdata = array();
+			$ch = curl_init();
+			curl_setopt( $ch, CURLOPT_URL, $queryUrl );
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+			curl_setopt($ch, CURLOPT_TIMEOUT, 1000);
+			curl_setopt( $ch, CURLOPT_CONNECTTIMEOUT, 0);
+			$info = curl_getinfo($ch);
+			$fSearchResultString = curl_exec( $ch );
+			curl_close( $ch );
+		
+			$dom = new DOMDocument();
+			@$dom->loadHTML( $fSearchResultString );
+			foreach ( $dom->getElementsByTagName('span') as $span ){
+				if( $span->getAttribute('class')=='twitter-content' ){
+					foreach ($span->childNodes as $contentchild){
+						if($contentchild->nodeName == 'a'){
+							if(!strpos($contentchild->getAttribute('href'), 'twitter.com')){
+							$metapostdata[] = "\n{ \"url\": \"".$contentchild->getAttribute('href')."\" }";
+							}
+						}
+					}
+				}
+			}
+			
+			$posturldata = implode(',',$metapostdata);
+			return '{ "query" : "'.$this->_searchterm.'",
+					"timeout" : 10,
+					"return-type" : "json",
+					"urls" : ['.$posturldata.']}';
+		
+		}
+		
+	
+		public function getCurlData( $encodedpostdata ){
+			define('POST_URL', 'http://'.$this->_factfinder.'?callback=json');
+			$ch = curl_init();
+			curl_setopt($ch, CURLOPT_URL, POST_URL);
+			$header  =  array( "Content-type: application/x-www-form-urlencoded" );
+			$port = 80;
+			curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
+			curl_setopt($ch, CURLOPT_PORT, $port);
+			curl_setopt($ch, CURLOPT_POST,1);
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+			curl_setopt($ch, CURLOPT_POSTFIELDS, "content=" . urlencode( $encodedpostdata ) );
+			$server_output = curl_exec($ch);
+			curl_close($ch);
+			$result = json_decode( $server_output );
+			return $result;
+		}
+	
+	}
+
+
+ 	$factObj = new Instapress_Core_Facterylabs();
+ 	$result = $factObj->getQueryUrl('ecofriend');
+ 	echo '<pre>';
+ 	var_dump( $result );
+ 	echo '</pre>';

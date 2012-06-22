@@ -1,0 +1,132 @@
+<?php
+
+class Instapress_Core_APIKlout
+{
+	function __construct($twitterLogin)
+	{		
+		$ch = curl_init("http://klout.com/api/twitter/profiledetail/3scale-515167c47d0e817b5042caca9825e057/$twitterLogin.xml");
+		curl_setopt($ch, CURLOPT_HEADER, 0);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+		curl_setopt ($ch, CURLOPT_TIMEOUT, 60);
+		$this->curlResult = curl_exec($ch);
+		curl_close($ch);
+		
+		$xml = simplexml_load_string($this->curlResult);
+		
+		$this->status = $xml->status;
+		$this->status_message = $xml->status_message;
+		$this->twitter_screen_name = $xml->twitter_screen_name;
+		$this->twitter_location = $xml->twitter_location;
+		$this->twitter_description = $xml->twitter_description;
+		$this->twitter_profile_image_url = $xml->twitter_profile_image_url;
+		$this->twitter_url = $xml->twitter_url;	
+		$this->kscore = $xml->score->kscore;
+		$this->slope = $xml->score->slope;
+		$this->date_updated = $xml->score->date_updated;
+		$this->update_count = $xml->score->update_count;
+		$this->followers_count = $xml->score->followers_count;
+		$this->following_count = $xml->score->following_count;
+		$this->friends = $xml->score->friends;
+		$this->at_messages = $xml->score->at_messages;
+		$this->retweets = $xml->score->retweets;
+		$this->kclass = $xml->kclass;
+		$this->kclass_description = $xml->kclass_description;
+		
+	}
+
+	public function getCurlResult()
+	{
+		return $this->curlResult;
+	}
+	
+	public function getStatus()
+	{
+		return $this->status;
+	}	 
+	
+	public function getStatusMessage()
+	{
+		return $this->status_message;
+	}
+	
+	public function getTwiterScreenName()
+	{
+		return $this->twitter_screen_name;
+	}
+	
+	public function getTwitterLocation()
+	{
+		return $this->twitter_location;
+	}
+	
+	public function getTwitterDescription()
+	{
+		return $this->twitter_description;
+	}
+	
+	public function getTwitterProfileImageURL()
+	{
+		return $this->twitter_profile_image_url;
+	}
+	
+	public function getTwitterURL()
+	{
+		return $this->twitter_url;
+	}
+	
+	public function getKloutScore()
+	{
+		return $this->kscore;
+	}
+	
+	public function getSlope()
+	{		
+		return $this->slope;
+	}
+	
+	public function getDateUpdated()
+	{
+		return $this->date_updated;
+	}
+	
+	public function getUpdateCount()
+	{
+		return $this->update_count;
+	}
+	
+	public function getFollowersCount()
+	{
+		return $this->followers_count;
+	}
+	
+	public function getFollowingCount()
+	{
+		return $this->following_count;
+	}
+	
+	public function getFriends()
+	{
+		return $this->friends;
+	}
+	
+	public function getAtMessage()
+	{
+		return $this->at_messages;
+	}
+	
+	public function getRetweets()
+	{
+		return $this->retweets;
+	}
+	
+	public function getKloutClass()
+	{
+		return $this->kclass;
+	}
+	
+	public function getKloutClassDescription()
+	{
+		return $this->kclass_description;
+	}
+
+}

@@ -1,0 +1,422 @@
+<?php
+
+class Instapress_Core_Text {
+
+	public function __construct() {
+		require_once( dirname( __FILE__ ) . '/Text/Kses.php' );		
+	}
+
+	private function balanceTags( $text )
+	{
+		$tagstack = array(); $stacksize = 0; $tagqueue = ''; $newtext = '';
+		$single_tags = array('br', 'hr', 'img', 'input'); //Known single-entity/self-closing tags
+		$nestable_tags = array('blockquote', 'div', 'span'); //Tags that can be immediately nested within themselves
+
+		#  for comments - in case you REALLY meant to type '< !--'
+		$text = str_replace('< !--', '<    !--', $text);
+		#  for LOVE <3 (and other situations with '<' before a number)
+		$text = preg_replace('#<([0-9]{1})#', '&lt;$1', $text);
+
+		while (preg_match("/<(\/?\w*)\s*([^>]*)>/",$text,$regex)) {
+			$newtext .= $tagqueue;
+
+			$i = strpos($text,$regex[0]);
+			$l = strlen($regex[0]);
+
+			// clear the shifter
+			$tagqueue = '';
+			// Pop or Push
+			if ($regex[1][0] == "/") { // End Tag
+				$tag = strtolower(substr($regex[1],1));
+				// if too many closing tags
+				if($stacksize <= 0) {
+					$tag = '';
+					//or close to be safe $tag = '/' . $tag;
+				}
+				// if stacktop value = tag close value then pop
+				else if ($tagstack[$stacksize - 1] == $tag) { // found closing tag
+					$tag = '</' . $tag . '>'; // Close Tag
+					// Pop
+					array_pop ($tagstack);
+					$stacksize--;
+				} else { // closing tag not at top, search for it
+					for ($j=$stacksize-1;$j>=0;$j--) {
+						if ($tagstack[$j] == $tag) {
+							// add tag to tagqueue
+							for ($k=$stacksize-1;$k>=$j;$k--){
+								$tagqueue .= '</' . array_pop ($tagstack) . '>';
+								$stacksize--;
+							}
+							break;
+						}
+					}
+					$tag = '';
+				}
+			} else { // Begin Tag
+				$tag = strtolower($regex[1]);
+
+				// Tag Cleaning
+
+				// If self-closing or '', don't do anything.
+				if((substr($regex[2],-1) == '/') || ($tag == '')) {
+				}
+				// ElseIf it's a known single-entity tag but it doesn't close itself, do so
+				elseif ( in_array($tag, $single_tags) ) {
+					$regex[2] .= '/';
+				} else {	// Push the tag onto the stack
+					// If the top of the stack is the same as the tag we want to push, close previous tag
+					if (($stacksize > 0) && !in_array($tag, $nestable_tags) && ($tagstack[$stacksize - 1] == $tag)) {
+						$tagqueue = '</' . array_pop ($tagstack) . '>';
+						$stacksize--;
+					}
+					$stacksize = array_push ($tagstack, $tag);
+				}
+
+				// Attributes
+				$attributes = $regex[2];
+				if($attributes) {
+					$attributes = ' '.$attributes;
+				}
+				$tag = '<'.$tag.$attributes.'>';
+				//If already queuing a close tag, then put this tag on, too
+				if ($tagqueue) {
+					$tagqueue .= $tag;
+					$tag = '';
+				}
+			}
+			$newtext .= substr($text,0,$i) . $tag;
+			$text = substr($text,$i+$l);
+		}
+
+		// Clear Tag Queue
+		$newtext .= $tagqueue;
+
+		// Add Remaining text
+		$newtext .= $text;
+
+		// Empty Stack
+		while($x = array_pop($tagstack)) {
+			$newtext .= '</' . $x . '>'; // Add remaining tags to close
+		}
+
+		// fix for the bug with HTML comments
+		$newtext = str_replace("< !--","<!--",$newtext);
+		$newtext = str_replace("<    !--","< !--",$newtext);
+
+		return $newtext;
+	}
+
+	private function ipTexturize($text)
+	{
+		global $bn_cockneyreplace;
+		$next = true;
+		$has_pre_parent = false;
+		$output = '';
+		$curl = '';
+		$textarr = preg_split('/(<.*>|\[.*\])/Us', $text, -1, PREG_SPLIT_DELIM_CAPTURE);
+		$stop = count($textarr);
+
+		// if a plugin has provided an autocorrect array, use it
+		if ( isset($bn_cockneyreplace) ) {
+			$cockney = array_keys($bn_cockneyreplace);
+			$cockneyreplace = array_values($bn_cockneyreplace);
+		} else {
+			$cockney = array("'tain't","'twere","'twas","'tis","'twill","'til","'bout","'nuff","'round","'cause");
+			$cockneyreplace = array("&#8217;tain&#8217;t","&#8217;twere","&#8217;twas","&#8217;tis","&#8217;twill","&#8217;til","&#8217;bout","&#8217;nuff","&#8217;round","&#8217;cause");
+		}
+
+		$static_characters = array_merge(array('---', ' -- ', '--', 'xn&#8211;', '...', '``', '\'s', '\'\'', ' (tm)'), $cockney);
+		$static_replacements = array_merge(array('&#8212;', ' &#8212; ', '&#8211;', 'xn--', '&#8230;', '&#8220;', '&#8217;s', '&#8221;', ' &#8482;'), $cockneyreplace);
+
+		$dynamic_characters = array('/\'(\d\d(?:&#8217;|\')?s)/', '/(\s|\A|")\'/', '/(\d+)"/', '/(\d+)\'/', '/(\S)\'([^\'\s])/', '/(\s|\A)"(?!\s)/', '/"(\s|\S|\Z)/', '/\'([\s.]|\Z)/', '/(\d+)x(\d+)/');
+		$dynamic_replacements = array('&#8217;$1','$1&#8216;', '$1&#8243;', '$1&#8242;', '$1&#8217;$2', '$1&#8220;$2', '&#8221;$1', '&#8217;$1', '$1&#215;$2');
+
+		for ( $i = 0; $i < $stop; $i++ ) {
+			$curl = $textarr[$i];
+
+			if ( !empty($curl) && '<' != $curl{0} && '[' != $curl{0} && $next && !$has_pre_parent) { // If it's not a tag
+				// static strings
+				$curl = str_replace($static_characters, $static_replacements, $curl);
+				// regular expressions
+				$curl = preg_replace($dynamic_characters, $dynamic_replacements, $curl);
+			} elseif (strpos($curl, '<code') !== false || strpos($curl, '<kbd') !== false || strpos($curl, '<style') !== false || strpos($curl, '<script') !== false) {
+				$next = false;
+			} elseif (strpos($curl, '<pre') !== false) {
+				$has_pre_parent = true;
+			} elseif (strpos($curl, '</pre>') !== false) {
+				$has_pre_parent = false;
+			} else {
+				$next = true;
+			}
+
+			$curl = preg_replace('/&([^#])(?![a-zA-Z1-4]{1,8};)/', '&#038;$1', $curl);
+			$output .= $curl;
+		}
+
+		return $output;
+	}
+
+
+	private function ipAutop($pee, $br = 1)
+	{
+		$pee = $pee . "\n"; // just to make things a little easier, pad the end
+		$pee = preg_replace('|<br />\s*<br />|', "\n\n", $pee);
+		// Space things out a little
+		$allblocks = '(?:table|thead|tfoot|caption|colgroup|tbody|tr|td|th|div|dl|dd|dt|ul|ol|li|pre|select|form|map|area|blockquote|address|math|style|input|p|h[1-6]|hr)';
+		$pee = preg_replace('!(<' . $allblocks . '[^>]*>)!', "\n$1", $pee);
+		$pee = preg_replace('!(</' . $allblocks . '>)!', "$1\n\n", $pee);
+		$pee = str_replace(array("\r\n", "\r"), "\n", $pee); // cross-platform newlines
+		if ( strpos($pee, '<object') !== false ) {
+			$pee = preg_replace('|\s*<param([^>]*)>\s*|', "<param$1>", $pee); // no pee inside object/embed
+			$pee = preg_replace('|\s*</embed>\s*|', '</embed>', $pee);
+		}
+		$pee = preg_replace("/\n\n+/", "\n\n", $pee); // take care of duplicates
+		// make paragraphs, including one at the end
+		$pees = preg_split('/\n\s*\n/', $pee, -1, PREG_SPLIT_NO_EMPTY);
+		$pee = '';
+		foreach ( $pees as $tinkle )
+		$pee .= '<p>' . trim($tinkle, "\n") . "</p>\n";
+		$pee = preg_replace('|<p>\s*?</p>|', '', $pee); // under certain strange conditions it could create a P of entirely whitespace
+		$pee = preg_replace('!<p>([^<]+)\s*?(</(?:div|address|form)[^>]*>)!', "<p>$1</p>$2", $pee);
+		$pee = preg_replace( '|<p>|', "$1<p>", $pee );
+		$pee = preg_replace('!<p>\s*(</?' . $allblocks . '[^>]*>)\s*</p>!', "$1", $pee); // don't pee all over a tag
+		$pee = preg_replace("|<p>(<li.+?)</p>|", "$1", $pee); // problem with nested lists
+		$pee = preg_replace('|<p><blockquote([^>]*)>|i', "<blockquote$1><p>", $pee);
+		$pee = str_replace('</blockquote></p>', '</p></blockquote>', $pee);
+		$pee = preg_replace('!<p>\s*(</?' . $allblocks . '[^>]*>)!', "$1", $pee);
+		$pee = preg_replace('!(</?' . $allblocks . '[^>]*>)\s*</p>!', "$1", $pee);
+		if ($br) {
+			$pee = preg_replace_callback('/<(script|style).*?<\/\\1>/s', create_function('$matches', 'return str_replace("\n", "<IPPreserveNewline />", $matches[0]);'), $pee);
+			$pee = preg_replace('|(?<!<br />)\s*\n|', "<br />\n", $pee); // optionally make line breaks
+			$pee = str_replace('<IPPreserveNewline />', "\n", $pee);
+		}
+		$pee = preg_replace('!(</?' . $allblocks . '[^>]*>)\s*<br />!', "$1", $pee);
+		$pee = preg_replace('!<br />(\s*</?(?:p|li|div|dl|dd|dt|th|pre|td|ul|ol)[^>]*>)!', '$1', $pee);
+		if (strpos($pee, '<pre') !== false)
+		$pee = preg_replace_callback('!(<pre.*?>)(.*?)</pre>!is', 'clean_pre', $pee );
+		$pee = preg_replace( "|\n</p>$|", '</p>', $pee );
+		$pee = preg_replace('/<p>\s*?(' . self::getShortcodeRegex() . ')\s*<\/p>/s', '$1', $pee); // don't auto-p wrap shortcodes that stand alone
+
+		return $pee;
+	}
+
+	private function getShortcodeRegex()
+	{
+		$shortcode_tags = array();
+		$tagnames = array_keys($shortcode_tags);
+		$tagregexp = join( '|', array_map('preg_quote', $tagnames) );
+
+		return '\[('.$tagregexp.')\b(.*?)(?:(\/))?\](?:(.+?)\[\/\1\])?';
+	}
+
+	function ipSpecialchars( $text, $quotes = 0 )
+	{
+		// Like htmlspecialchars except don't double-encode HTML entities
+		$text = str_replace('&&', '&#038;&', $text);
+		$text = str_replace('&&', '&#038;&', $text);
+		$text = preg_replace('/&(?:$|([^#])(?![a-z1-4]{1,8};))/', '&#038;$1', $text);
+		$text = str_replace('<', '&lt;', $text);
+		$text = str_replace('>', '&gt;', $text);
+		if ( 'double' === $quotes ) {
+			$text = str_replace('"', '&quot;', $text);
+		} elseif ( 'single' === $quotes ) {
+			$text = str_replace("'", '&#039;', $text);
+		} elseif ( $quotes ) {
+			$text = str_replace('"', '&quot;', $text);
+			$text = str_replace("'", '&#039;', $text);
+		}
+		return $text;
+	}
+
+	function convertUrlLink($ret)
+	{  //changed in wp
+		$ret = ' ' . $ret . ' ';
+		$ret = preg_replace("#([\s>])(https?)://([^\s<>{}()]+[^\s.,<>{}()])#i", "$1<a href=\'$2://$3\' rel=\'nofollow\'>$2://$3</a>", $ret);
+		$ret = preg_replace("#(\s)www\.([a-z0-9\-]+)\.([a-z0-9\-.\~]+)((?:/[^ <>{}()\n\r]*[^., <>{}()\n\r]?)?)#i", "$1<a href=\'http://www.$2.$3$4\' rel=\'nofollow\'>www.$2.$3$4</a>", $ret);
+		$ret = preg_replace("#(\s)([a-z0-9\-_.]+)@([^,< \n\r]+)#i", "$1<a href=\"mailto:$2@$3\">$2@$3</a>", $ret);
+		$ret = trim($ret);
+		return $ret;
+	}
+
+	function convertSmilies($text)
+	{			//changed in wp
+		global $wp_smiliessearch, $wp_smiliesreplace;
+		$output = '';
+		// HTML loop taken from texturize function, could possible be consolidated
+		$textarr = preg_split("/(<.*>)/U", $text, -1, PREG_SPLIT_DELIM_CAPTURE); // capture the tags as well as in between
+		$stop = count($textarr);// loop stuff
+		for ($i = 0; $i < $stop; $i++) {
+			$content = $textarr[$i];
+			if ((strlen($content) > 0) && ('<' != $content{0})) { // If it's not a tag
+				$content = str_replace($wp_smiliessearch, $wp_smiliesreplace, $content);
+			}
+			$output .= $content;
+		}
+		return $output;
+	}
+
+	private function convertChars($content, $deprecated = '')
+	{
+		// Translation of invalid Unicode references range to valid range
+		$bn_htmltranswinuni = array(
+		'&#128;' => '&#8364;', // the Euro sign
+		'&#129;' => '',
+		'&#130;' => '&#8218;', // these are Windows CP1252 specific characters
+		'&#131;' => '&#402;',  // they would look weird on non-Windows browsers
+		'&#132;' => '&#8222;',
+		'&#133;' => '&#8230;',
+		'&#134;' => '&#8224;',
+		'&#135;' => '&#8225;',
+		'&#136;' => '&#710;',
+		'&#137;' => '&#8240;',
+		'&#138;' => '&#352;',
+		'&#139;' => '&#8249;',
+		'&#140;' => '&#338;',
+		'&#141;' => '',
+		'&#142;' => '&#382;',
+		'&#143;' => '',
+		'&#144;' => '',
+		'&#145;' => '&#8216;',
+		'&#146;' => '&#8217;',
+		'&#147;' => '&#8220;',
+		'&#148;' => '&#8221;',
+		'&#149;' => '&#8226;',
+		'&#150;' => '&#8211;',
+		'&#151;' => '&#8212;',
+		'&#152;' => '&#732;',
+		'&#153;' => '&#8482;',
+		'&#154;' => '&#353;',
+		'&#155;' => '&#8250;',
+		'&#156;' => '&#339;',
+		'&#157;' => '',
+		'&#158;' => '',
+		'&#159;' => '&#376;'
+		);
+
+		// Remove metadata tags
+		$content = preg_replace('/<title>(.+?)<\/title>/','',$content);
+		$content = preg_replace('/<category>(.+?)<\/category>/','',$content);
+
+		// Converts lone & characters into &#38; (a.k.a. &amp;)
+		$content = preg_replace('/&([^#])(?![a-z1-4]{1,8};)/i', '&#038;$1', $content);
+
+		// Fix Word pasting
+		$content = strtr($content, $bn_htmltranswinuni);
+
+		// Just a little XHTML help
+		$content = str_replace('<br>', '<br />', $content);
+		$content = str_replace('<hr>', '<hr />', $content);
+
+		return $content;
+	}
+
+	function cleanUrl( $url )
+	{
+		if ('' == $url) return $url;
+		$url = preg_replace('|[^a-z0-9-~+_.?#=&;,/:]|i', '', $url);
+		$url = str_replace(';//', '://', $url);
+		$url = (!strstr($url, '://')) ? 'http://'.$url : $url;
+		$url = preg_replace('/&([^#])(?![a-z]{2,8};)/', '&#038;$1', $url);
+		return $url;
+	}
+
+	//functions for storing data into database
+	function pre_db_content($text)
+	{
+		$text=self::balanceTags($text);
+		return $text;
+	}
+
+	//functions for retrieving data from database
+	function processBeforetitle($text)
+	{
+		$text=self::ipTexturize($text);
+		$text=trim($text);
+		return $text;
+	}
+
+	function processBeforeView($text) {
+		$text=self::ipTexturize($text);
+		$text=self::ipAutop($text);
+		return $text;
+	}
+	
+	
+	function makeClickableLinks($text) {	
+	  $text = eregi_replace('(((f|ht){1}tp://)[-a-zA-Z0-9@:%_\+.~#?&//=]+)',	
+	    '<a href="\\1">\\1</a>', $text);	
+	  $text = eregi_replace('([[:space:]()[{}])(www.[-a-zA-Z0-9@:%_\+.~#?&//=]+)',	
+	    '\\1<a href="http://\\2">\\2</a>', $text);	
+	  $text = eregi_replace('([_\.0-9a-z-]+@([0-9a-z][0-9a-z-]+\.)+[a-z]{2,3})',	
+	    '<a href="mailto:\\1">\\1</a>', $text);  
+		return $text;	
+	}
+	
+
+	function findUrls($text)
+	{
+		$reg_exp = "/(http)+(s)?:(\\/\\/)((\\w|\\.)+)(\\/)?(\\S+)?/i";
+		// Make sure each link ends with [sapce]
+		$text = eregi_replace("http://", "http://www.", $text);
+		$text = eregi_replace("http://www.www.", "http://www.", $text);
+		$text = eregi_replace("www.", "http://www.", $text);
+		$text = eregi_replace("http://http://", "http://", $text);
+		$text = eregi_replace("\"", " \"", $text);
+		$text = eregi_replace("'", " '", $text);
+		$text = eregi_replace(">", " >", $text);
+		// Create an array with unique links
+		$uri_array = array();
+		if (preg_match_all($reg_exp, strip_tags($text, "<a>"), $array, PREG_PATTERN_ORDER)) {
+			foreach($array[0] as $key => $link) {
+				foreach((array(",", ".", ":", ";")) as $t_key => $t_value) {
+					$link = trim($link, $t_value);
+				}
+				$uri_array[] = ($link);
+			}
+			$uri_array = array_unique($uri_array);
+		}
+		return $uri_array;
+	}
+
+	function checkEmail($email)
+	{
+		if(eregi("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$", $email))
+		{
+			list($username,$domain)=split('@',$email);
+			if(!checkdnsrr($domain,'MX'))
+			{
+				return false;
+			}
+			return true;
+		}
+		return false;
+	}
+	
+	function stripExtraHtml( $Content ) {
+		require_once( LIB_PATH. 'Instapress/Core/Text/StripTags.php' );
+
+		$Content=str_replace("<!--Image:", "#####", $Content);
+		$Content=str_replace("<!--Video:", "^^^^^", $Content);
+		$Content=str_replace("<!--Factbox:", "!!!!!", $Content);
+		$Content=str_replace("<!--Slideshow:", "&&&&&", $Content);
+		$Content=str_replace("<!--Gallery:", "$$$$$", $Content);
+
+		$tagsAndAttrs = array('h2' => array(),'h3' => array(),'h4' => array(),'p' => array(),'b' => array(),'i' => array(),'u' => array(),'strike' => array(),'a' => array('title', 'href', 'target', 'rel'),'ul' => array(),'li' => array(),'br' => array(),'table' => array(),'thead' => array(),'tr' => array(),'th' => array(),'tbody' => array(),'td' => array(),'hr' => array(),'ol' => array(),'blockquote' => array(),'pre'=>array('class'), 'code'=>array('class') );
+		$st = new StripTags($tagsAndAttrs);
+		$Content = stripslashes($Content);
+		$Content = $st->strip($Content);
+
+		$Content=str_replace("#####", "<!--Image:", $Content);
+		$Content=str_replace("^^^^^", "<!--Video:", $Content);
+		$Content=str_replace("!!!!!", "<!--Factbox:", $Content);
+		$Content=str_replace("&&&&&", "<!--Slideshow:", $Content);
+		$Content=str_replace("$$$$$", "<!--Gallery:", $Content);
+		
+		unset($st);
+		$invalidStrings = array( '<p><br></p>', '<p></p>', "\n", "\r", "\t", "&nbsp;" );
+		foreach( $invalidStrings as $string ) {
+			$Content = str_ireplace( $string, ' ', $Content );
+		}
+		return $Content;
+	}
+}

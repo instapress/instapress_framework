@@ -1,0 +1,84 @@
+<?php
+
+/**
+ * Copyright 2011 Citizen Media Pvt. Ltd.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may
+ * not use this file except in compliance with the License. You may obtain
+ * a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ */
+class Instapress_Core_APIPostRank
+{
+	function __construct($domain)
+	{
+		$ch = curl_init("http://api.postrank.com/v2/feed/info?appkey=$domain&id=$domain&format=json");
+		curl_setopt($ch, CURLOPT_HEADER, 0);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+		curl_setopt ($ch, CURLOPT_TIMEOUT, 60);
+		$this->curlResult = curl_exec($ch);
+		curl_close($ch);
+			
+		$dataArray = json_decode($this->curlResult);
+		//print_r($dataArray);echo "<br><hr>";
+		if(!$dataArray->error)
+		{
+			echo "feedHash=".$this->feedHash = $dataArray->id;echo "<br>";echo "<br>";
+			echo "".$this->error = False;echo "<br>";echo "<br>";
+		}
+		else
+		{
+			echo "".$this->error = $dataArray->error;echo "<br>";echo "<br>";
+			echo "feedHash=".$this->feedHash = False;echo "<br>";echo "<br>";
+		}
+	}
+	
+	function getFeedHash()
+	{
+		return $this->feedHash;
+	}
+	
+	function getErrorMsg()
+	{
+		return $this->error;
+	}
+	
+	
+	function getFilteredPosts($feedHash, $doamin, $level)
+	{
+		$ch = curl_init("http://api.postrank.com/v2/feed/$feedHash?format=json&appkey=$doamin&level=$level");
+		curl_setopt($ch, CURLOPT_HEADER, 0);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+		curl_setopt ($ch, CURLOPT_TIMEOUT, 60);
+		$this->curlResult = curl_exec($ch);
+		curl_close($ch);
+			
+		$dataArray = json_decode($this->curlResult);
+		//print_r($dataArray);
+		return $dataArray;
+	}
+	
+	
+	function getTopPosts($feedHash, $doamin)
+	{
+		
+		
+		$ch = curl_init("http://api.postrank.com/v2/feed/$feedHash/topposts?appkey=$doamin&format=json");
+		curl_setopt($ch, CURLOPT_HEADER, 0);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+		curl_setopt ($ch, CURLOPT_TIMEOUT, 60);
+		$this->curlResult = curl_exec($ch);
+		curl_close($ch);
+			
+		$dataArray = json_decode($this->curlResult);
+		//print_r($dataArray);
+		return $dataArray;
+	}
+}

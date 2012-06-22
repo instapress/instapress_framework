@@ -1,0 +1,1154 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-01 16:52+0530\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: sandeep <sandeep@instablogs.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:57
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:71
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:77
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:83
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:102
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:109
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:115
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:133
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:140
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:146
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:164
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:169
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:179
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:208
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:217
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:225
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:233
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:241
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:298
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:341
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:442
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:464
+msgid "Abstract : "
+msgstr "सारांश : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:57
+msgid "Please set clientId!"
+msgstr "कृप्या ग्राहक आईडी सेट करें!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:71
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:77
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:102
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:109
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:133
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:140
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:164
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:169
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:179
+msgid "Argument"
+msgstr "तर्क"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:71
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:77
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:102
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:109
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:133
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:140
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:164
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:169
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:179
+msgid "is invalid"
+msgstr "अमान्य है"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:83
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:115
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:146
+msgid "should be a natural number!"
+msgstr "एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:208
+msgid "are not allowed with"
+msgstr "निम्नलिखित के साथ अनुमानित नहीं हैं"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:217
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:225
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:233
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:241
+msgid "'s value "
+msgstr " का मूल्य "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:217
+msgid "'s value  is invalid! Valid values : ASC, DESC."
+msgstr " का मूल्य अमान्य है! मान्य मूल्य है : बढ़ता, घटता."
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:225
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:233
+msgid "'s value  is invalid! It should be Number."
+msgstr "का मूल्य अमान्य है! यह एक नम्बर होना चाहिए."
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:241
+msgid "'s value  is invalid. Valid values : "
+msgstr " का मूल्य अमान्य है! मान्य मूल्य है : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:298
+msgid "Your requested index "
+msgstr "आपका  अनुरोध सूचकांक "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:298
+msgid " is invalid! Range for get should be"
+msgstr " अमान्य है! रेंज निम्नलिखित के बीच होना चाहिए"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:341
+msgid "Your requested argument "
+msgstr "आपका  अनुरोध तर्क "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:341
+msgid " is invalid. Valid arguments : "
+msgstr "अमान्य है! मान्य मूल्य है : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:397
+msgid "Redefine add function"
+msgstr "जोड़ने वाले कार्य को पुन:परिभाषित करें"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:402
+msgid "Redefine delete function"
+msgstr "मिटाने वाले कार्य को पुन:परिभाषित करें"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:407
+msgid "Redefine edit function"
+msgstr "संपादन कार्य को पुन:परिभाषित करें"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:442
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Abstract.php:464
+msgid " is invalid"
+msgstr "अमान्य है"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandable.php:14
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandable.php:20
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandable.php:26
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandable.php:32
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandable.php:38
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandable.php:44
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandable.php:50
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandable.php:56
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandable.php:62
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandable.php:70
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandable.php:98
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandable.php:103
+msgid "AssetExpandable : "
+msgstr "विस्तार योग्य संपत्ति : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandable.php:14
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandableText.php:14
+msgid "assetTypeId is not provided!"
+msgstr "संपत्ति प्रकार आइडी नहीं दी गयी है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandable.php:20
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandableText.php:20
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:43
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierAsset.php:56
+msgid "assetTypeId should be a natural number!"
+msgstr "संपत्ति प्रकार आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandable.php:26
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandable.php:98
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandableText.php:26
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandableText.php:97
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:16
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:89
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:168
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssignmentComment.php:20
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssignmentComment.php:62
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssignmentComment.php:85
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Assignment.php:42
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Assignment.php:102
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Desk.php:40
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Desk.php:98
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Desk.php:167
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DeskUser.php:33
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DeskUser.php:84
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DeskUser.php:107
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierAsset.php:38
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierAsset.php:99
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierAsset.php:121
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierComment.php:20
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierComment.php:63
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierComment.php:86
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierLog.php:37
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierLog.php:93
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierLog.php:116
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:42
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:123
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:221
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierStory.php:38
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierStory.php:118
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierStory.php:140
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:42
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:130
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:228
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierUser.php:42
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierUser.php:103
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierUser.php:126
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandable.php:20
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandable.php:95
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandableText.php:21
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandableText.php:97
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Image.php:16
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Image.php:91
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomDesk.php:34
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomDesk.php:87
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomDesk.php:110
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Newsroom.php:34
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Newsroom.php:87
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Newsroom.php:132
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomPublication.php:34
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomPublication.php:93
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomPublication.php:136
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Revision.php:16
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Revision.php:67
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Revision.php:126
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignmentComment.php:62
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignmentComment.php:85
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/templateAssignment.php:43
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/templateAssignment.php:103
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignment.php:42
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignment.php:102
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoEexpandableText.php:18
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:18
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:93
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:116
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:18
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:94
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:117
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Video.php:19
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Video.php:75
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Video.php:120
+msgid "clientId should be a natural number!"
+msgstr "ग्राहक आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandable.php:32
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandable.php:103
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandableText.php:32
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandableText.php:102
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:95
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:174
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierAsset.php:50
+msgid "assetId should be a natural number!"
+msgstr "संपत्ति आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandable.php:38
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandableText.php:38
+msgid "xGroupId should be a natural number!"
+msgstr "ऐक्स समूह आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandable.php:44
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandableText.php:44
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandable.php:34
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandableText.php:35
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:32
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:32
+msgid "Expandable Name is a required parameter and cannot be blank!"
+msgstr "विस्तार योग्य नाम एक आवश्यक मापदण्ड है और खाली नहीं हो सकता!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandable.php:50
+msgid "Expandable Id is wrong! Values can be : "
+msgstr "विस्तार योग्य आइडी गलत है! मूल्य हो सकता है : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandable.php:56
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandableText.php:56
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandable.php:52
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandableText.php:54
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoEexpandableText.php:68
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:50
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:50
+msgid "Expandable Value is a required parameter and cannot be blank!"
+msgstr "विस्तार योग्य मूल्य एक आवश्यक मापदण्ड है और खाली नहीं हो सकता!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandable.php:62
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandableText.php:62
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:49
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssignmentComment.php:36
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssignmentComment.php:104
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Assignment.php:54
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Assignment.php:203
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Desk.php:60
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Desk.php:147
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DeskUser.php:51
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DeskUser.php:130
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierAsset.php:64
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierAsset.php:153
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierComment.php:37
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierComment.php:105
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierLog.php:59
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierLog.php:148
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:86
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:203
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierStory.php:76
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierStory.php:207
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:92
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:210
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierUser.php:66
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierUser.php:164
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandable.php:58
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandableText.php:60
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomDesk.php:53
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomDesk.php:136
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Newsroom.php:51
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Newsroom.php:112
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomPublication.php:60
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomPublication.php:117
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Revision.php:40
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignmentComment.php:36
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignmentComment.php:104
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/templateAssignment.php:55
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/templateAssignment.php:204
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignment.php:54
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoEexpandableText.php:73
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:56
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:156
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:57
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:156
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Video.php:42
+msgid "createdUserId should be a natural number!"
+msgstr "निर्मित उपभोक्ता आईडी एक प्राकृतिक नंबर होना  चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandable.php:70
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandableText.php:70
+msgid "This Expandable asset data already exists!"
+msgstr "यह विस्तार योग्य संपत्ति आंकड़े पहले से मौजूद है"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandable.php:116
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandableText.php:115
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandable.php:113
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandableText.php:115
+msgid "edit code"
+msgstr "संपादन कोड"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandableText.php:14
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandableText.php:20
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandableText.php:26
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandableText.php:32
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandableText.php:38
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandableText.php:44
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandableText.php:50
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandableText.php:56
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandableText.php:62
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandableText.php:70
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandableText.php:97
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandableText.php:102
+msgid "AssetExpandableText : "
+msgstr "संपत्ति विस्तार योग्य विषय : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssetExpandableText.php:50
+msgid "Expandable Id is wrong.Values can be : "
+msgstr "विस्तार योग्य आईडी गलत है! मूल्य हो सकता है : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:16
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:22
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:30
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:37
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:43
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:49
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:59
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:89
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:95
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:159
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:168
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:174
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:295
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:303
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:311
+msgid "Asset : "
+msgstr "संपत्ति : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:22
+msgid "Asset title is a required parameter and cannot be blank!"
+msgstr "संपत्ति शीर्षक एक आवश्यक मापदण्ड है और खाली नहीं हो सकता!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:30
+msgid "Asset keywords is a required parameter and cannot be blank!"
+msgstr "संपत्ति खोजशब्द एक आवश्यक मापदण्ड है और खाली नहीं हो सकता!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:37
+msgid "assetSectionId should be a natural number!"
+msgstr "संपत्ति अनुभाग आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:59
+msgid "This asset already exists!"
+msgstr "यह संपत्ति पैहले से मौज़ुद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:159
+msgid "There was some error while processing this data! Please edit this asset again."
+msgstr "इन आकड़ों  की  प्रक्रिया में बाधा  आ गयी! कृप्या इस संपत्ति का संपादन दोबरा करें "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:284
+msgid "some issue with amazon storage."
+msgstr "अमेज़न का भंडारण के साथ कुछ मुद्दे है."
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:295
+msgid "This record can't deleted because entry exist in Asset Expandable!"
+msgstr "यह  दस्तावेज नष्ट नहीं किया जा सकता क्युंकी लेख  विस्तार योग्य संपत्ति मे मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:303
+msgid "This record can't deleted because entry exist in Asset Expandable Text!"
+msgstr "यह  दस्तावेज नष्ट नहीं किया जा सकता क्युंकी लेख  विस्तार योग्य संपत्ति विषय मे मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Asset.php:311
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:250
+msgid "This record can't deleted because entry exist in Dossier Asset!"
+msgstr "यह  दस्तावेज नष्ट नहीं किया जा सकता क्युंकी लेख फाइल संपत्ति मे मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssignmentComment.php:20
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssignmentComment.php:26
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssignmentComment.php:31
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssignmentComment.php:36
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssignmentComment.php:62
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssignmentComment.php:68
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssignmentComment.php:85
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssignmentComment.php:91
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssignmentComment.php:104
+msgid "AssignmentComment : "
+msgstr "कार्य समीक्षा : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssignmentComment.php:26
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Assignment.php:107
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierLog.php:52
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/templateAssignment.php:108
+msgid "assignmentId should be a natural number!"
+msgstr "कार्य आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssignmentComment.php:31
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignmentComment.php:31
+msgid "Assignment Comment field required!"
+msgstr "कार्य समीक्षा भरना आवश्क है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssignmentComment.php:68
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/AssignmentComment.php:91
+msgid "assignmentCommentId should be a natural number!"
+msgstr "कार्य समीक्षा आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Assignment.php:42
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Assignment.php:48
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Assignment.php:54
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Assignment.php:60
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Assignment.php:68
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Assignment.php:102
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Assignment.php:107
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Assignment.php:129
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Assignment.php:137
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Assignment.php:148
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Assignment.php:154
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Assignment.php:203
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/templateAssignment.php:43
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/templateAssignment.php:49
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/templateAssignment.php:55
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/templateAssignment.php:61
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/templateAssignment.php:69
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/templateAssignment.php:103
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/templateAssignment.php:108
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/templateAssignment.php:130
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/templateAssignment.php:138
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/templateAssignment.php:149
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/templateAssignment.php:155
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/templateAssignment.php:204
+msgid "Assignment : "
+msgstr "कार्य : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Assignment.php:48
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/templateAssignment.php:49
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignment.php:48
+msgid "Assignment name is a required parameter and cannot be blank!"
+msgstr "कार्य का नाम भरना आवश्क है, इसे खाली नहीं रखा  जा सकता!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Assignment.php:60
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Desk.php:104
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Desk.php:173
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DeskUser.php:45
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierLog.php:47
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:79
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:187
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:79
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:194
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomDesk.php:46
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/templateAssignment.php:61
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignment.php:60
+msgid "deskId should be a natural number!"
+msgstr "लेखन-आधार आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Assignment.php:68
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierAsset.php:44
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierComment.php:26
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierLog.php:42
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:129
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:227
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierStory.php:44
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierUser.php:54
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/templateAssignment.php:69
+msgid "dossierId should be a natural number!"
+msgstr "फाइल आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Assignment.php:129
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Desk.php:227
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:274
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/templateAssignment.php:130
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignment.php:129
+msgid "This record can't deleted because entry exist in Dossier Log!"
+msgstr "इस दस्तावेज को नष्ट नहीं कर सकते क्योंकि लेख रिकॉर्ड फाइल लॉग मे मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Assignment.php:137
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/templateAssignment.php:138
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignment.php:137
+msgid "This record can't deleted because entry exist in Assignment Comment!"
+msgstr "इस दस्तावेज को नष्ट नहीं कर सकते क्योंकि लेख कार्य समीक्षा मे मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Assignment.php:148
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/templateAssignment.php:149
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignment.php:148
+msgid "Client Id should be a natural number!"
+msgstr "ग्राहक आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Assignment.php:154
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/templateAssignment.php:155
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignment.php:154
+msgid "Assignment Id should be a natural number!"
+msgstr "कार्य आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Desk.php:40
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Desk.php:46
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Desk.php:60
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Desk.php:68
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Desk.php:98
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Desk.php:104
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Desk.php:147
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Desk.php:167
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Desk.php:173
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Desk.php:195
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Desk.php:203
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Desk.php:219
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Desk.php:227
+msgid "Desk : "
+msgstr "लेखन-आधार : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Desk.php:46
+msgid "Desk name is a required parameter and cannot be blank!"
+msgstr "लेखन-आधार का नाम भरना आवश्क है, इसे खाली नहीं रखा  जा सकता!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Desk.php:68
+msgid "This Desk name already exists!"
+msgstr "यह लेखन-आधार नाम पहले से ही मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Desk.php:195
+msgid "This record can't deleted because entry exist in Assignment!"
+msgstr "इस दस्तावेज को नष्ट नहीं कर सकते क्योंकि लेख कार्य मे मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Desk.php:203
+msgid "This record can't deleted because entry exist in Desk User!"
+msgstr "इस दस्तावेज को नष्ट नहीं कर सकते क्योंकि लेख लेखन-आधार उपभोक्ता मे मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Desk.php:219
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Newsroom.php:180
+msgid "This record can't deleted because entry exist in Newsroom Desk!"
+msgstr "इस दस्तावेज को नष्ट नहीं कर सकते क्योंकि लेख समाचार कक्ष लेखन-आधार मे मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DeskUser.php:33
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DeskUser.php:39
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DeskUser.php:45
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DeskUser.php:51
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DeskUser.php:59
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DeskUser.php:84
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DeskUser.php:89
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DeskUser.php:107
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DeskUser.php:113
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DeskUser.php:130
+msgid "DeskUser : "
+msgstr "लेखन-आधार उपभोक्ता : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DeskUser.php:39
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierUser.php:48
+msgid "userId should be a natural number!"
+msgstr "उपभोक्ता आईडी एक प्राकृतिक नंबर होना  चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DeskUser.php:59
+msgid "This Desk user relation already exists!"
+msgstr "यह लेखन-आधार उपभोक्ता संबंध पहले से मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DeskUser.php:89
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DeskUser.php:113
+msgid "deskUserRelId should be a natural number!"
+msgstr "लेखन-आधार उपभोक्ता आईडी एक प्राकृतिक नंबर होना  चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierAsset.php:38
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierAsset.php:44
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierAsset.php:50
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierAsset.php:56
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierAsset.php:64
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierAsset.php:72
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierAsset.php:99
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierAsset.php:104
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierAsset.php:121
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierAsset.php:127
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierAsset.php:153
+msgid "DossierAsset : "
+msgstr "फ़ाइल संपत्ति : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierAsset.php:72
+msgid "This Dossier Asset relation already exists!"
+msgstr "यह फ़ाइल संपत्ति संबंध पहले से मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierAsset.php:104
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierAsset.php:127
+msgid "dossierAssetRelId should be a natural number!"
+msgstr "फ़ाइल संपत्ति आईडी एक प्राकृतिक नंबर होना  चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierComment.php:20
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierComment.php:26
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierComment.php:32
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierComment.php:37
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierComment.php:63
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierComment.php:69
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierComment.php:86
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierComment.php:92
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierComment.php:105
+msgid "DossierComment : "
+msgstr "फ़ाइल समीक्षा : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierComment.php:32
+msgid "Dossier Comment is required field!"
+msgstr "फ़ाइल समीक्षा भरना आवश्क है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierComment.php:69
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierComment.php:92
+msgid "dossierCommentId should be a natural number!"
+msgstr "फाइल समीक्षा आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierLog.php:37
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierLog.php:42
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierLog.php:47
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierLog.php:52
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierLog.php:59
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierLog.php:66
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierLog.php:93
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierLog.php:98
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierLog.php:116
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierLog.php:122
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierLog.php:148
+msgid "DossierLog : "
+msgstr "फाइल लॉग : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierLog.php:66
+msgid "This Dossier Event relation already exists!"
+msgstr "यह फाइल वृत्तांत संबंध पहले से मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierLog.php:98
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierLog.php:122
+msgid "dossierLogId should be a natural number!"
+msgstr "फाइल लॉग इन आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:42
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:48
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:54
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:60
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:68
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:79
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:86
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:123
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:129
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:187
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:203
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:221
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:227
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:250
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:258
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:266
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:274
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:282
+msgid "Dossier : "
+msgstr "फाइल : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:48
+msgid "dossier name is a required parameter and cannot be blank!"
+msgstr "फाइल का नाम भरना आवश्क है, इसे खाली नहीं रखा  जा सकता!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:54
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierStory.php:50
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:54
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomPublication.php:54
+msgid "publicationId should be a natural number!"
+msgstr "प्रकाशन आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:60
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:60
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomDesk.php:40
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Newsroom.php:94
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Newsroom.php:139
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomPublication.php:40
+msgid "newsroomId should be a natural number!"
+msgstr "समाचार कक्ष आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:68
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:68
+msgid "storyTypeId should be a natural number!"
+msgstr "कहानी प्रकार आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:258
+msgid "This record can't deleted because entry exist in Dossier Story!"
+msgstr "यह  दस्तावेज नष्ट नहीं किया जा सकता क्युंकी लेख कहानी फाइल में मौज़ुद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:266
+msgid "This record can't deleted because entry exist in Dossier User!"
+msgstr "यह  दस्तावेज नष्ट नहीं किया जा सकता क्युंकी लेख उपभोक्ता फाइल में मौज़ुद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Dossier.php:282
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:288
+msgid "This record can't deleted because entry exist in Dossier Comment!"
+msgstr "यह  दस्तावेज नष्ट नहीं किया जा सकता क्युंकी लेख समीक्षा फाइल में मौज़ुद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierStory.php:38
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierStory.php:44
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierStory.php:50
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierStory.php:56
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierStory.php:62
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierStory.php:76
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierStory.php:84
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierStory.php:118
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierStory.php:123
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierStory.php:140
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierStory.php:146
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierStory.php:207
+msgid "DossierStory : "
+msgstr "कहानी फाइल : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierStory.php:56
+msgid "sectionId should be a natural number!"
+msgstr "अनुभाग आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierStory.php:62
+msgid "storyTitle should be a natural number!"
+msgstr "कहानी का शीर्षक एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierStory.php:84
+msgid "This Dossier story relation already exists!"
+msgstr "यह कहानी फाइल संबंध पहले से मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierStory.php:123
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierStory.php:146
+msgid "dossierStoryId should be a natural number!"
+msgstr "कहानी फाइल आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:42
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:48
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:54
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:60
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:68
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:79
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:86
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:92
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:130
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:136
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:194
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:210
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:228
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:234
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:256
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:264
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:272
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:280
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:288
+msgid "DossierTemplate : "
+msgstr "फाइल टेम्पलेट/नमूना : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:48
+msgid "dossierTemplate name is a required parameter and cannot be blank!"
+msgstr "फाइल टेम्पलेट/नमूना का नाम भरना आवश्क है, इसे खाली नहीं रखा  जा सकता है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:86
+msgid "Dossier Template Description is required field!"
+msgstr "फाइल टेम्पलेट/नमूना का विवरण भरना आवश्क है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:136
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:234
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignment.php:68
+msgid "dossierTemplateId should be a natural number!"
+msgstr "फाइल टेम्पलेट/नमूना आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:256
+msgid "This record can't deleted because entry exist in dossierTemplate Asset!"
+msgstr "इस दस्तावेज को नष्ट नहीं कर सकते क्योंकि  यह दस्तावेज फाइल टेम्पलेट संपत्ति मे मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:264
+msgid "This record can't deleted because entry exist in dossierTemplate Story!"
+msgstr "इस दस्तावेज को नष्ट नहीं कर सकते क्योंकि  यह दस्तावेज फाइल टेम्पलेट कहानी मे मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:272
+msgid "This record can't deleted because entry exist in dossierTemplate User!"
+msgstr "इस दस्तावेज को नष्ट नहीं कर सकते क्योंकि  यह दस्तावेज फाइल टेम्पलेट उपभोक्ता मे मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierTemplate.php:280
+msgid "This record can't deleted because entry exist in dossierTemplate Log!"
+msgstr "इस दस्तावेज को नष्ट नहीं कर सकते क्योंकि  यह दस्तावेज फाइल टेम्पलेट लॉग मे मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierUser.php:42
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierUser.php:48
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierUser.php:54
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierUser.php:66
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierUser.php:74
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierUser.php:103
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierUser.php:108
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierUser.php:126
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierUser.php:132
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierUser.php:164
+msgid "DossierUser : "
+msgstr "फाइल उपभोक्ता : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierUser.php:74
+msgid "This Dossier user relation already exists!"
+msgstr "यह फाइल उपभोक्ता संबंध पहले से ही मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierUser.php:108
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/DossierUser.php:132
+msgid "dossierUserRelId should be a natural number!"
+msgstr "फाइल उपभोक्ता संबंध आईडी एक प्राकृतिक नंबर होना  चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandable.php:20
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandable.php:26
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandable.php:34
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandable.php:40
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandable.php:47
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandable.php:52
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandable.php:58
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandable.php:66
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandable.php:95
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandable.php:100
+msgid "ImageExpandable : "
+msgstr "विस्तार योग्य चित्र : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandable.php:26
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandable.php:100
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandableText.php:27
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandableText.php:102
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Image.php:97
+msgid "imageId should be a natural number!"
+msgstr "चित्र आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandable.php:40
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandableText.php:41
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:38
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:38
+msgid "assetTypeId is a required parameter and cannot be blank!"
+msgstr "संपत्ति प्रकार भरना आवश्क है, इसे खाली नहीं रखा  जा सकता!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandable.php:47
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandableText.php:48
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoEexpandableText.php:62
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:45
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:45
+msgid "Expandable Name is wrong. Values can be : "
+msgstr "विस्तार योग्य नाम गलत है , मूल्य हो सकता है : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandable.php:66
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandableText.php:68
+msgid "This Expandable image data already exists!"
+msgstr "यह विस्तार योग्य चित्र आंकड़े पहले से ही मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandableText.php:21
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandableText.php:27
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandableText.php:35
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandableText.php:41
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandableText.php:48
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandableText.php:54
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandableText.php:60
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandableText.php:68
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandableText.php:97
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/ImageExpandableText.php:102
+msgid "ImageExpandableText : "
+msgstr "विस्तार योग्य चित्र विषय : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Image.php:16
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Image.php:22
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Image.php:27
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Image.php:32
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Image.php:37
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Image.php:51
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Image.php:59
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Image.php:91
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Image.php:97
+msgid "Image : "
+msgstr "चित्र : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Image.php:22
+msgid "Image URI is a required parameter and cannot be blank!"
+msgstr "चित्र यूआरआइ भरना आवश्क है, इसे खाली नहीं रखा  जा सकता!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Image.php:27
+msgid "Image title is a required parameter and cannot be blank!"
+msgstr "चित्र शीर्षक भरना आवश्क है, इसे खाली नहीं रखा  जा सकता!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Image.php:32
+msgid "ImageWidth is a required parameter and cannot be blank!"
+msgstr "चित्र चौड़ाई भरना आवश्क है, और एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Image.php:37
+msgid "imageHeight is required and should be a natural number!"
+msgstr "चित्र ऊँचाई भरना आवश्क है, और एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Image.php:51
+msgid "createdUserId is required and should be a natural number!"
+msgstr "निर्मित उपभोक्ता आईडी भरना आवश्क है, और एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Image.php:59
+msgid "The image already exists!"
+msgstr "यह चित्र पहले से ही मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Image.php:155
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoEexpandableText.php:104
+msgid "delete code"
+msgstr "कोड हटाना/मिटाना"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomDesk.php:34
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomDesk.php:40
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomDesk.php:46
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomDesk.php:53
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomDesk.php:61
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomDesk.php:87
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomDesk.php:92
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomDesk.php:110
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomDesk.php:116
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomDesk.php:136
+msgid "NewsroomDesk : "
+msgstr "समाचार कक्ष लेखन-आधार : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomDesk.php:61
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomPublication.php:68
+msgid "This Newsroom Desk relation already exists!"
+msgstr "यह समाचार कक्ष लेखन-आधार संबंध पहले से ही मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomDesk.php:92
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomDesk.php:116
+msgid "newsroomDeskRelId should be a natural number!"
+msgstr "समाचार कक्ष लेखन-आधार संबंध आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Newsroom.php:34
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Newsroom.php:42
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Newsroom.php:51
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Newsroom.php:60
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Newsroom.php:87
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Newsroom.php:94
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Newsroom.php:112
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Newsroom.php:132
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Newsroom.php:139
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Newsroom.php:163
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Newsroom.php:180
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Newsroom.php:190
+msgid "Newsroom : "
+msgstr "समाचार कक्ष : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Newsroom.php:42
+msgid "newsroom name is a required parameter and cannot be blank!"
+msgstr "समाचार कक्ष नाम भरना आवश्क है, इसे खाली नहीं रखा  जा सकता!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Newsroom.php:60
+msgid "This newsroom name already exists!"
+msgstr "यह समाचार कक्ष नाम पहले से ही मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Newsroom.php:163
+msgid "This record can't deleted because entry exist in Dossier!"
+msgstr "इस दस्तावेज को नष्ट नहीं कर सकते क्योंकि  यह दस्तावेज फाइल मे मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Newsroom.php:190
+msgid "This record can't deleted because entry exist in Newsroom Publication!"
+msgstr "इस दस्तावेज को नष्ट नहीं कर सकते क्योंकि  यह दस्तावेज समाचार कक्ष प्रकाशन मे मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomPublication.php:34
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomPublication.php:40
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomPublication.php:54
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomPublication.php:60
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomPublication.php:68
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomPublication.php:93
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomPublication.php:99
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomPublication.php:117
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomPublication.php:136
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomPublication.php:141
+msgid "NewsroomPublication : "
+msgstr "समाचार कक्ष प्रकाशन : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomPublication.php:99
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/NewsroomPublication.php:141
+msgid "newsroomPublicationRelId should be a natural number!"
+msgstr "समाचार कक्ष प्रकाशन संबंध आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Revision.php:16
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Revision.php:22
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Revision.php:28
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Revision.php:34
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Revision.php:40
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Revision.php:67
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Revision.php:73
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Revision.php:80
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Revision.php:126
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Revision.php:131
+msgid "Revision : "
+msgstr "संशोधन : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Revision.php:22
+msgid "revisionTableName is a required parameter and cannot be blank!"
+msgstr "संशोधन टेबल/तालिका का नाम भरना आवश्क है, इसे खाली नहीं रखा  जा सकता है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Revision.php:28
+msgid "revisionPrimaryFieldName is a required parameter and cannot be blank!"
+msgstr "संशोधन प्राथमिक फील्ड का नाम भरना आवश्क है, इसे खाली नहीं रखा  जा सकता है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Revision.php:34
+msgid "revisionPrimaryFieldId should be a natural number!"
+msgstr "संशोधन प्राथमिक फील्ड आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Revision.php:73
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Revision.php:131
+msgid "revisionId should be a natural number!"
+msgstr "संशोधन आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Revision.php:80
+msgid "revisionFile is a required parameter and cannot be blank!"
+msgstr "संशोधन फाइल भरना आवश्क है, इसे खाली नहीं रखा  जा सकता!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignmentComment.php:20
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignmentComment.php:26
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignmentComment.php:31
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignmentComment.php:36
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignmentComment.php:62
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignmentComment.php:68
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignmentComment.php:85
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignmentComment.php:91
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignmentComment.php:104
+msgid "TemplateAssignmentComment : "
+msgstr "टेम्पलेट/नमूना कार्य समीक्षा : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignmentComment.php:20
+msgid "clientId Id should be a natural number!"
+msgstr "ग्राहक आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignmentComment.php:26
+msgid "templateAssignmentId should be a natural number!"
+msgstr "टेम्पलेट/नमूना कार्य  आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignmentComment.php:68
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignmentComment.php:91
+msgid "templateAssignmentCommentId should be a natural number!"
+msgstr "टेम्पलेट/नमूना कार्य समीक्षा आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignment.php:42
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignment.php:48
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignment.php:54
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignment.php:60
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignment.php:68
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignment.php:102
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignment.php:107
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignment.php:129
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignment.php:137
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignment.php:148
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignment.php:154
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignment.php:203
+msgid "TemplateAssignment : "
+msgstr "टेम्पलेट/नमूना कार्य : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/TemplateAssignment.php:203
+msgid "templateAssignmentAssignedUserId Id should be a natural number!"
+msgstr "टेम्पलेट/नमूना कार्य नियुक्त उपभोक्ता आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoEexpandableText.php:18
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoEexpandableText.php:24
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoEexpandableText.php:62
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoEexpandableText.php:68
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoEexpandableText.php:73
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoEexpandableText.php:80
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:18
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:24
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:32
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:38
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:45
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:50
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:57
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:65
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:94
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:99
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:117
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:123
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:156
+msgid "VideoExpandableText : "
+msgstr "वीडियो विस्तार योग्य विषय : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoEexpandableText.php:24
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:24
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:98
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:122
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:24
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:99
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:123
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Video.php:80
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Video.php:125
+msgid "videoId should be a natural number!"
+msgstr "वीडियो आइडी एक प्राकृतिक नम्बर होनी चाहिए!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoEexpandableText.php:47
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:140
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:140
+msgid "Expandable Name was incorrect. Values can be : "
+msgstr "विस्तार योग्य नाम गलत है , मूल्य हो सकता है : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoEexpandableText.php:80
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandableText.php:65
+msgid "This Expandable video data already exists!"
+msgstr "विस्तार योग्य वीडियो आंकड़े पहले से ही मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:18
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:24
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:32
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:38
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:45
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:50
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:56
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:64
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:93
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:98
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:116
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:122
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:140
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:156
+msgid "VideoExpandable : "
+msgstr "वीडियो विस्तार योग्य : "
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/VideoExpandable.php:64
+msgid "This Expandable video data already exists"
+msgstr "विस्तार योग्य वीडियो आंकड़े पहले से ही मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Video.php:23
+msgid "videoTitle is a required parameter and cannot be blank!"
+msgstr "वीडियो शीर्षक भरना आवश्क है, इसे खाली नहीं रखा  जा सकता!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Video.php:29
+msgid "video Keywords is a required parameter and cannot be blank!"
+msgstr "वीडियो मुख्य शब्द/विशिष्टशब्द  भरना आवश्क है, इसे खाली नहीं रखा  जा सकता!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Video.php:33
+msgid "video Credit is a required parameter and cannot be blank!"
+msgstr "वीडियो क्रेडिट/श्रेय भरना आवश्क है, इसे खाली नहीं रखा  जा सकता!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Video.php:50
+msgid "Another video with this title already exists!"
+msgstr "इस शीर्षक के साथ एक और वीडियो पहले से ही मौजूद है !"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Video.php:141
+msgid "This record can't deleted because entry exist in Video Expandable!"
+msgstr "इस दस्तावेज को नष्ट नहीं कर सकते क्योंकि  यह दस्तावेज वीडियो विस्तार योग्य मे मौजूद है!"
+
+#: /home/sandeep/workspace/instapress_entn/branches/1.1/components/Entn/Model/Video.php:147
+msgid "This record can't deleted because entry exist in Video Expandable Text!"
+msgstr "इस दस्तावेज को नष्ट नहीं कर सकते क्योंकि  यह दस्तावेज वीडियो विस्तार योग्य विषय मे मौजूद है!"

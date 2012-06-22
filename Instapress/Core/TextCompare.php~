@@ -1,0 +1,38 @@
+<?php
+
+/**
+ * Copyright 2011 Citizen Media Pvt. Ltd.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may
+ * not use this file except in compliance with the License. You may obtain
+ * a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations
+ * under the License.
+ */
+class Instapress_Core_TextCompare
+{
+	/*
+	 * usage:
+	 * $objTextCompare = new Instapress_Core_TextCompare();
+	 * $result = $objTextCompare->textCompare($text1, $text2);
+	 * print_r($result);
+	 */
+
+	public function textCompare($text1, $text2)
+	{
+		require_once(LIB_PATH. 'Instapress/Core/TextCompare/finediff.php');
+
+		$diff = new FineDiff($text1, $text2, FineDiff::$wordGranularity);
+		$edits = $diff->getOps();
+		$rendered_from_diff = htmlspecialchars_decode($diff->renderFromDiffToHTML(), ENT_NOQUOTES);
+		$rendered_to_diff = htmlspecialchars_decode($diff->renderToDiffToHTML(), ENT_NOQUOTES);
+
+		return array("oldtext"=>$rendered_to_diff, "newtext"=>$rendered_from_diff);
+	}
+}
